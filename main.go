@@ -14,6 +14,7 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
+	log.Println("Start Program")
 
 	err := godotenv.Load()
 
